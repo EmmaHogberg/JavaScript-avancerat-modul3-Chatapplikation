@@ -9,6 +9,8 @@
   const theirVideoContainer = document.querySelector(".video-container.them");
   const videoOfMeEl = document.querySelector(".video-container.me video");
   const videoOfThemEl = document.querySelector(".video-container.them video");
+  const startVideoButton = theirVideoContainer.querySelector(".start");
+  const stopVideoButton = theirVideoContainer.querySelector(".stop");
 
   // Display video of me
   navigator.mediaDevices
@@ -206,8 +208,6 @@
   newMessageEL.addEventListener("keyup", sendMessage);
 
   // Event listener for click "Start video chat"
-  const startVideoButton = theirVideoContainer.querySelector(".start");
-  const stopVideoButton = theirVideoContainer.querySelector(".stop");
   startVideoButton.addEventListener("click", () => {
     startVideoButton.classList.remove("active");
     stopVideoButton.classList.add("active");
