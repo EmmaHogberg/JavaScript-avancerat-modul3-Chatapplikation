@@ -1,4 +1,4 @@
-### Modul 3-Chatapplikation
+# Modul 3-Chatapplikation
 
 ## Koda applikationen så långt som vi kom i lektion 7, alltså:
 - Lägg till en video som visar dig själv i real-time mha datorns kamera
